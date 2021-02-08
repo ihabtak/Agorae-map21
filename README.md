@@ -16,8 +16,6 @@ Installation requirements
 -------------------------
 
 * Git client
-* [CouchDB](http://couchdb.apache.org/)
-* [CouchApp](https://github.com/jchris/couchapp) 
 * [Argos](https://github.com/Hypertopic/Argos)
 
 Installation procedure
@@ -37,11 +35,6 @@ Argos has been installed at ``http://127.0.0.1:5984/argos``
   * a set of ``corpora`` (IDs),
   * a set of ``viewpoints`` (IDs),
   * ``auth``, an authentication service (e.g. ``http://127.0.0.1:5984/_session``).
-
-* Type:
-
-        couchapp init
-        couchapp push http://127.0.0.1:5984/argos 
 
 * Go to http://127.0.0.1:5984/argos/_design/agorae/_rewrite/
 
