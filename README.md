@@ -26,7 +26,7 @@ Argos has been installed at ``http://127.0.0.1:5984/argos``
 * Type:
 
         git clone https://github.com/Hypertopic/Agorae.git
-        cd Agorae/couchdb
+        cd Agorae
 
 * Copy `agorae.sample.json` as `agorae.json`.
 * Edit ``agorae.json`` to fit your settings:
