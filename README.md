@@ -35,7 +35,14 @@ Argos has been installed at ``http://127.0.0.1:5984/argos``
   * a set of ``corpora`` (IDs),
   * a set of ``viewpoints`` (IDs),
   * ``auth``, an authentication service (e.g. ``http://127.0.0.1:5984/_session``),
-   * ``homesite``, Agorae homesite link.
+  * ``homesite``, Agorae homesite link.
+
+* Enable comments
+
+  1. [Sign up to Disqus](https://disqus.com/profile/signup/),
+  2. Choose `Install Disqus on my site`,
+  3. Set your Website data and **create site**. Remember its `short name`.
+  4. Edit `couchdb/_attachments/agorae.json` and paste the short name as the value of `disqus` setting.
 
 * Go to http://127.0.0.1:5984/argos/_design/agorae/_rewrite/
 
@@ -76,9 +83,3 @@ Tests running
 
         rspec spec/features/*
 
-* Enable comments
-
-  1. [Sign up to Disqus](https://disqus.com/profile/signup/),
-  2. Choose `Install Disqus on my site`,
-  3. Set your Website data and **create site**. Remember its `short name`.
-  4. Edit `couchdb/_attachments/agorae.json` and paste the short name as the value of `disqus` setting.
