@@ -8,5 +8,7 @@
     "i18n": {
       "fr": "i18n/languages/agorae-fr.json",
       "en": "i18n/languages/agorae-en.json"
-    }
+    },
+    "disqus": "your disqus site",
+    "homesite": ""
 }

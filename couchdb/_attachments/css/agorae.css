@@ -124,7 +124,7 @@ div#shadow-right{
 }
 div#header{
   /*background: url(blitzer/images/headerbg.jpg) repeat scroll left top transparent;*/
-  background-color: #990000;
+  background-color: #144f5d;
   color: white;
   height: 8em;
   padding-left: 6em;
@@ -367,4 +367,36 @@ ul.search-condition button{
 }
 #toggle {
   float: right;
+}
+#disqus_thread {
+  position: relative;
+}
+#disqus_thread:after {
+  content: "";
+  display: block;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
+.tds{
+  display: none;
+}
+#itemImages{
+  display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+#imageVideoItem{
+  width: 400px;
+}
+#iconItem > img{
+  height: 18.839em;
+  width: 18.839em;
+}
+#imageVideoItem > img{
+  height: 18.839em;
+  width: 400px;
 }
